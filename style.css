@@ -1,0 +1,39 @@
+body {
+  background-color: aliceblue;
+}
+header {
+  background-color: rgb(240, 234, 228);
+  height: 80px;
+}
+header h1 {
+  padding-top: 15px;
+  text-align: center;
+  color: cadetblue;
+  font-size: 2.8rem;
+}
+
+.container {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-title {
+  text-align: center;
+}
+
+.card-question {
+  height: 180px;
+}
+#btn-ans {
+  margin-left: 10px;
+  display: none;
+}
+.form-select {
+  width: 200px;
+  margin-top: 20px;
+}
+.selection {
+  display: flex;
+  justify-content: center;
+}
